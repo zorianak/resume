@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from "react";
-import * as headerLinks from "./links.json";
+import headerLinks from "./links.json";
 import { Button } from "../Button/Button";
 import { Icon } from "../Icon/Icon";
 import { useWindowSize } from "@/app/hooks/useWindowSize";
@@ -8,6 +8,7 @@ import { Popover, PopoverTrigger, PopoverContent } from "../shadcn/popover";
 
 export const Header = () => {
     const [isMounted, setIsMounted] = useState(false);
+    
     
     useEffect(() => {
         setIsMounted(true);
@@ -20,6 +21,12 @@ export const Header = () => {
             // Render a placeholder during SSR
             return null;
         }
+
+        const NavLinks = () => {
+            return Object.entries(headerLinks).map(([key, value]) => (<li key={key}><a href={value}>{key}</a></li>));
+        }
+
+        const Links = NavLinks();
         
         if (size.width && size.width < 640) {
             // return mobile
@@ -33,7 +40,7 @@ export const Header = () => {
                         </PopoverTrigger>
                         <PopoverContent className="w-auto mt-5" side="bottom" align="start">
                             <ul className="flex flex-col gap-6 flex-wrap items-center justify-left">
-                                {Object.entries(headerLinks).map(([key, value]) => (<li key={key}><a href={value}>{key}</a></li>))}
+                                {Links}
                             </ul>
                         </PopoverContent>
                     </Popover>
@@ -44,7 +51,7 @@ export const Header = () => {
 
         //desktop
         return (<ul className="flex gap-6 flex-wrap items-left justify-left">
-                    {Object.entries(headerLinks).map(([key, value]) => (<li key={key}><a href={value}>{key}</a></li>))}
+                    {Links}
                 </ul>);
     }
 

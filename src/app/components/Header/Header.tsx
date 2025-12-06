@@ -43,7 +43,7 @@ export const Header = () => {
         }
 
         //desktop
-        return (<ul className="flex gap-6 flex-wrap items-center justify-center">
+        return (<ul className="flex gap-6 flex-wrap items-left justify-left">
                     {Object.entries(headerLinks).map(([key, value]) => (<li key={key}><a href={value}>{key}</a></li>))}
                 </ul>);
     }

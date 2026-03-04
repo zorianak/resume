@@ -20,6 +20,7 @@
       "timeframe": "March 2024 - January 2025",
       "jobTitle": "Software Engineer II (Full Stack)",
       "logo": "company1.png",
+      "skills": ["TypeScript", "React", "Telemetry"],
       "description": [
         "Dedicated engineer for greenfield project of migrating Nuance codebase into Copilot Studio UX codebase in TypeScript, React, CSS-in-JS, and Playwright/React-Testing-Library.",
         "Optimized UX telemetry, reducing customer friction by 20%, enabling data-driven prioritization through monitors and telemetry.",
@@ -31,9 +32,11 @@
       "subname": "Office Growth User Lifecycle",
       "timeframe": "June 2022 - March 2024",
       "jobTitle": "Software Engineer II (Full Stack)",
+      "skills": ["TypeScript", "React", "Microsoft Azure", "C#"],
       "logo": "company1.png",
       "description": [
         "Led customer checkout UI migration to React/TypeScript, improving performance and maintainability.",
+        "Delivered new features and optimizations from the React front-end to the C# backend",
         "Rebuilt Playwright automation suite, saving 100+ engineering hours per sprint, and reducing costs by an estimated $10k+ per month.",
         "Conducted training and knowledge presentations for 30+ engineers across the organization, increasing adoption of engineering excellence practices and testing."
       ]
@@ -44,6 +47,7 @@
       "timeframe": "June 2021 - June 2022",
       "jobTitle": "Front End Engineer II (Full Stack)",
       "logo": "company2.png",
+      "skills": ["TypeScript", "React", "Cypress"],
       "description": [
         "Key engineer for a greenfield project starting from ground 0 to create AWS GameSparks within AWS GameTech.",
         "Developed front-end coding standards, improving code maintainability & performance.",
@@ -56,11 +60,12 @@
       "subname": "Alexa Machine Learning",
       "timeframe": "February 2018 - June 2021",
       "jobTitle": "Front End Engineer II (Full Stack)",
+      "skills": ["React", "Redux", "Ruby on Rails", "Java"],
       "logo": "company2.png",
       "description": [
         "Built Conflict Detection and language authoring tools in React/Redux to allow data scientists to optimize Alexa skill creation.",
-        "Maintained existing language authoring tools in Ruby-On-Rails.",
-        "Spearheaded migration from Ruby-On-Rails to React/Redux on the front end, while also pushing for correct MVC standards within the application business logic.",
+        "Maintained existing language authoring tools in Ruby-On-Rails with a Java API.",
+        "Lead and delivered migration from Ruby-On-Rails to React/Redux on the front end, while also pushing for correct MVC standards within the application business logic.",
         "Mentored engineers for career growth, supporting multiple promotions."
       ]
     },
@@ -70,6 +75,7 @@
       "jobTitle": "Web Developer (Data, Full Stack)",
       "timeframe": "March 2016 - February 2018",
       "logo": "company3.png",
+      "skills": ["AngularJS", "NodeJS", "C++", "Lua", "Java/Kotlin"],
       "description": [
         "Developed initial MVP for real-time game data monitoring for World of Warcraft using Angular and NodeJS.",
         "Brainstormed, designed, and conceived toolsets for processing large data sets that often changed on a weekly basis.",
@@ -82,6 +88,7 @@
       "jobTitle": "Front end engineer",
       "timeframe": "August 2014 - March 2016",
       "logo": "company3.png",
+      "skills": ["Java", "NodeJS", "UX", "Front-end"],
       "description": [
         "Migrated Java-based sites to NodeJS as a fresh, greenfield project, improving scalability.",
         "Led UX modernization to a mobile-first, responsive design.",

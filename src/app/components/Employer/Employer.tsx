@@ -18,7 +18,7 @@ const Employer: React.FC<EmployerProps> = ({ name, subname, timeframe, jobTitle,
   return (
     <div className="mb-2 flex flex-row">
       <div className="min-w-[200px]">
-        <div className="text-sm text-gray-500">{timeframe}</div>
+        <div className="text-sm text-gray-500 mt-1">{timeframe}</div>
       </div>
       <div>
         <TextHeader variant="h3">

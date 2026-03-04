@@ -1,6 +1,7 @@
 {
-    "home": "/",
-    "resume": "/resume",
-    "contact": "/contact",
-    "portfolio": "/portfolio"
+  "home": "/",
+  "about": "#about",
+  "experience": "#experience",
+  "contact": "#contact",
+  "portfolio": "#portfolio"
 }

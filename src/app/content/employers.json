@@ -5,7 +5,8 @@
       "timeframe": "April 2025 - Present",
       "jobTitle": "Senior Full Stack Engineer (Front End)",
       "logo": "adapter.png",
-      "skills": ["TypeScript", "React", "Vite", "Storybook"],
+      "skills": ["TypeScript", "React", "Vite", "Storybook", "Rive"],
+      "link": "https://adapter.com/",
       "description": [
         "Architected and lead implementation of greenfield front-end stack using TurboRepo, Vite, React, and Tailwind, establishing monorepo package boundaries and building pipeline conventions across shared ui, state, and type packages",
         "Built core chat interface for an AI agent product end-to-end, including smooth in-app animations preserving component state and updates with React Router - a key feature for the application’s beta that contributed to securing several multi-million dollar investment rounds",
@@ -21,6 +22,7 @@
       "jobTitle": "Software Engineer II (Full Stack)",
       "logo": "company1.png",
       "skills": ["TypeScript", "React", "Telemetry"],
+      "link": "https://adoption.microsoft.com/en-us/ai-agents/copilot-studio/",
       "description": [
         "Dedicated engineer for greenfield project of migrating Nuance codebase into Copilot Studio UX codebase in TypeScript, React, CSS-in-JS, and Playwright/React-Testing-Library.",
         "Optimized UX telemetry, reducing customer friction by 20%, enabling data-driven prioritization through monitors and telemetry.",
@@ -34,6 +36,7 @@
       "jobTitle": "Software Engineer II (Full Stack)",
       "skills": ["TypeScript", "React", "Microsoft Azure", "C#"],
       "logo": "company1.png",
+      "link": "https://www.office.com/",
       "description": [
         "Led customer checkout UI migration to React/TypeScript, improving performance and maintainability.",
         "Delivered new features and optimizations from the React front-end to the C# backend",
@@ -48,6 +51,7 @@
       "jobTitle": "Front End Engineer II (Full Stack)",
       "logo": "company2.png",
       "skills": ["TypeScript", "React", "Cypress"],
+      "link": "https://aws.amazon.com/gametech/",
       "description": [
         "Key engineer for a greenfield project starting from ground 0 to create AWS GameSparks within AWS GameTech.",
         "Developed front-end coding standards, improving code maintainability & performance.",
@@ -62,6 +66,7 @@
       "jobTitle": "Front End Engineer II (Full Stack)",
       "skills": ["React", "Redux", "Ruby on Rails", "Java"],
       "logo": "company2.png",
+      "link": "https://aws.amazon.com/ai/machine-learning/",
       "description": [
         "Built Conflict Detection and language authoring tools in React/Redux to allow data scientists to optimize Alexa skill creation.",
         "Maintained existing language authoring tools in Ruby-On-Rails with a Java API.",
@@ -75,6 +80,7 @@
       "jobTitle": "Web Developer (Data, Full Stack)",
       "timeframe": "March 2016 - February 2018",
       "logo": "company3.png",
+      "link": "https://www.wowhead.com/",
       "skills": ["AngularJS", "NodeJS", "C++", "Lua", "Java/Kotlin"],
       "description": [
         "Developed initial MVP for real-time game data monitoring for World of Warcraft using Angular and NodeJS.",
@@ -88,6 +94,7 @@
       "jobTitle": "Front end engineer",
       "timeframe": "August 2014 - March 2016",
       "logo": "company3.png",
+      "link": "https://www.ask.com/",
       "skills": ["Java", "NodeJS", "UX", "Front-end"],
       "description": [
         "Migrated Java-based sites to NodeJS as a fresh, greenfield project, improving scalability.",

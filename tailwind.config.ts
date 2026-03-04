@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "hsl(var(--background))",
+        background: "var(--background)",
         foreground: "hsl(var(--foreground))",
         card: {
           DEFAULT: "hsl(var(--card))",
@@ -70,6 +70,9 @@ export default {
       },
       animation: {
         slideDown: "slideDown 0.3s ease-out",
+      },
+      maskImage: {
+        "gradient-to-b": "linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))",
       },
     },
   },

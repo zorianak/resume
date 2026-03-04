@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 
 import { TextHeader } from "../TextHeader";
 import { Pill } from "../Pill";
+import { Icon } from "../Icon";
 
 export interface EmployerProps {
   name: string;
@@ -9,23 +11,32 @@ export interface EmployerProps {
   jobTitle: string;
   timeframe: string;
   logo: string;
+  link: string;
   skills?: string[];
   description: string[];
 }
 
-const Employer: React.FC<EmployerProps> = ({ name, subname, timeframe, jobTitle, skills, description }) => {
-  console.log("skills", skills);
+const Employer: React.FC<EmployerProps> = ({ name, subname, timeframe, jobTitle, skills, description, link }) => {
+  const handleClick = () => {
+    window.open(link, "_blank");
+  };
   return (
-    <div className="mb-2 flex flex-row">
+    <div
+      onClick={handleClick}
+      className="group flex flex-col sm:flex-row space-y-2 border-b hover:border border-gray-900 pb-2 hover:p-4 hover:-mr-5 hover:cursor-pointer transition-all duration-300 ease-in-out"
+    >
       <div className="min-w-[200px]">
-        <div className="text-sm text-gray-500 mt-1">{timeframe}</div>
+        <div className="text-sm text-gray-400 mt-2">{timeframe}</div>
       </div>
-      <div>
-        <TextHeader variant="h3">
-          {name}
+      <div className="space-y-2">
+        <TextHeader variant="h3" classes="group-hover:text-red-400 flex items-center gap-1">
+          <span>{name}</span>
           {subname && ": "} <span className="subname">{subname}</span>
+          <Icon type="external" className="inline-block flex-shrink-0" size={16} />
         </TextHeader>
-        <TextHeader variant="h4">{jobTitle}</TextHeader>
+        <TextHeader variant="h4" classes="flex items-center gap-1">
+          {jobTitle}
+        </TextHeader>
         {skills && skills.length > 0 && (
           <div className="space-x-2 mb-2 ">
             {skills.map((skill, idx) => {

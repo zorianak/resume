@@ -52,7 +52,7 @@ export const Header = () => {
           <Popover>
             <PopoverTrigger asChild>
               <Button variant="primary">
-                <Icon variant="menu" />
+                <Icon type="menu" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="w-auto mt-5" side="bottom" align="start">
@@ -70,7 +70,10 @@ export const Header = () => {
         <ul
           className={`${
             hasScrolled ? "fixed top-0 shadow-md animate-slideDown" : ""
-          } flex gap-6 flex-wrap items-left justify-left bg-black w-full py-5`}
+          } flex gap-6 flex-wrap items-left justify-left bg-black w-full py-5 px-20 sm:px-8`}
+          style={{
+            background: "linear-gradient(to bottom, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.95) 70%, rgba(0,0,0,0) 100%)",
+          }}
         >
           {Links}
         </ul>
@@ -79,7 +82,7 @@ export const Header = () => {
   };
 
   return (
-    <header>
+    <header className="w-full">
       <nav>
         <RenderNav />
       </nav>

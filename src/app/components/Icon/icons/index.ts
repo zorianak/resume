@@ -1,5 +1,6 @@
-export { default as Menu } from "./Menu";
-export { default as Mail } from "./Mail";
-export { default as Github } from "./Github";
-export { default as LinkedIn } from "./LinkedIn";
-export { default as Twitch } from "./Twitch";
+export { Menu } from "./Menu";
+export { Mail } from "./Mail";
+export { GitHub as Github } from "./Github";
+export { LinkedIn as Linkedin } from "./LinkedIn";
+export { Twitch } from "./Twitch";
+export { External } from "./external";

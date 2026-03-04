@@ -15,11 +15,9 @@ export default function Home() {
           <TextHeader variant="h1" classes="inline-block text-transparent bg-clip-text bg-gradient-to-r from-white via-rose-400 to-white bg-[length:200%] animate-gradient leading-relaxed">Callie Holmes</TextHeader>
           <div className="mb-4 -mt-1 text-neutral-500">Front end engineer</div>
         </div>
-        <TextHeader variant="h2">Hello, world! I&apos;m Callie and I want to make your website do things.</TextHeader>
-        <div>Want the expertise of Big Tech without paying the Big Tech price? You&apos;ve landed on the right page.</div>
-        <div>In a world with AI, maybe you&apos;ve already created a basic MVP. Great, but what next? I can ensure that MVP becomes a robust, maintainable system that does what you need.</div>
-        <div>My expertise resides in ReactJS, JavaScript ES6, TypeScript, enzyme, React-Testing-Library (RTL), Cypress, Playwright, 
-          git, CI/CD, LESS, SASS, and Tailwind.</div>
+        <div>I build accessible, performant, and secure digital experiences for the web.</div>
+        <TextHeader variant="h2">About</TextHeader>
+        <div>I&apos;m a full stack engineer (with a passion for front end, specifically) focused on creating intuitive and efficient user interfaces.</div>
         <div className="grid bg-white gap-4 text-neutral-950 rounded-lg auto-cols-fr p-4 w-full">
           <TextHeader variant="h2" classes="col-span-full">Work experience</TextHeader>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">

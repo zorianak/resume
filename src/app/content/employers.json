@@ -1,6 +1,19 @@
 {
     "employers": [
         {
+            "name": "Adapter Group",
+            "timeframe": "April 2025 - Present",
+            "jobTitle": "Senior Full Stack Engineer (Front End)",
+            "logo": "adapter.png",
+            "description": [
+                "Architected and lead implementation of greenfield front-end stack using TurboRepo, Vite, React, and Tailwind, establishing monorepo package boundaries and building pipeline conventions across shared ui, state, and type packages",
+                "Built core chat interface for an AI agent product end-to-end, including smooth in-app animations preserving component state and updates with React Router - a key feature for the application’s beta that contributed to securing several multi-million dollar investment rounds",
+                "Developed UX patterns and engineered guidelines for human-AI interaction flows, including conversational chat interfaces and user-agent creation workflows",
+                "Integrated Python API backend with TypeScript front-end, owning full request lifecycle from front-end state management through API layer coordination",
+                "Introduced regression, integration, and unit testing practices into the codebase, reducing regressions and establishing a baseline for sustainable development velocity that also shaped future testing strategies"
+            ]
+        },
+        {
             "name": "Microsoft",
             "subname": "Copilot Studio UX",
             "timeframe": "March 2024 - January 2025",

@@ -4,7 +4,7 @@ import { Icon } from "../Icon";
 const Footer = () => {
   return (
     <footer
-      className="fixed bottom-0 w-full py-2 h-10 bg-black shadow-md px-20 sm:px-8"
+      className="fixed bottom-0 w-full pt-3 pb-2 h-12 bg-black shadow-md px-20 sm:px-8"
       style={{
         background: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.95) 30%, rgba(0,0,0,0.95) 100%)",
       }}

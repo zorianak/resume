@@ -1,10 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import headerLinks from "./links.json";
-import { Button } from "../Button/Button";
-import { Icon } from "../Icon/Icon";
-import { useWindowSize } from "@/app/hooks/useWindowSize";
-import { Popover, PopoverTrigger, PopoverContent } from "../shadcn/popover";
 
 export const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -28,8 +24,6 @@ export const Header = () => {
   }, []);
 
   const RenderNav = () => {
-    const size = useWindowSize();
-
     if (!isMounted) {
       // Render a placeholder during SSR
       return null;
@@ -45,25 +39,6 @@ export const Header = () => {
 
     const Links = NavLinks();
 
-    if (size.width && size.width < 640) {
-      // return mobile
-      return (
-        <div className="fixed top-2 left-2 rounded-xl bg-black px-2 pt-2 border border-white">
-          <Popover>
-            <PopoverTrigger asChild>
-              <Button variant="primary">
-                <Icon type="menu" />
-              </Button>
-            </PopoverTrigger>
-            <PopoverContent className="w-auto mt-5" side="bottom" align="start">
-              <ul className="flex flex-col gap-6 flex-wrap items-center justify-left">{Links}</ul>
-            </PopoverContent>
-          </Popover>
-        </div>
-      );
-    }
-
-    //desktop
     return (
       <div>
         {hasScrolled && <div className="h-[73px]" />}

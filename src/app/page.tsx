@@ -2,6 +2,7 @@ import { Employer } from "./components/Employer";
 import { TextHeader } from "./components/TextHeader";
 import { Header } from "./components/Header";
 import * as employerArr from "./content/employers.json";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
   const { employers } = employerArr;
@@ -59,7 +60,7 @@ export default function Home() {
           return <Employer key={index} {...employer} />;
         })}
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
+      <Footer />
     </div>
   );
 }

@@ -17,11 +17,11 @@ export default function Home() {
           <div className="animate-in fade-in slide-in-from-top-4 duration-500 lg:sticky lg:top-[73px] lg:w-full">
             <TextHeader
               variant="h1"
-              classes="inline-block text-transparent bg-clip-text bg-gradient-to-r from-white via-rose-400 to-white bg-[length:200%] animate-gradient leading-relaxed"
+              classes="inline-block text-transparent bg-clip-text bg-gradient-to-r from-slate-400 via-slate-500 to-slate-400 bg-[length:200%] animate-gradient leading-relaxed"
             >
               Callie Holmes
             </TextHeader>
-            <div className="mb-4 -mt-1 text-neutral-400">Front end engineer</div>
+            <div className="mb-4 -mt-1 text-neutral-400">Senior Fullstack and Front end engineer</div>
             <div className="animate-in fade-in slide-in-from-top-4 duration-500 delay-100">
               <p>I build accessible, performant, and secure digital experiences for the web.</p>
             </div>

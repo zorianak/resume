@@ -29,7 +29,7 @@ const Employer: React.FC<EmployerProps> = ({ name, subname, timeframe, jobTitle,
         <div className="text-sm text-gray-400 mt-2">{timeframe}</div>
       </div>
       <div className="space-y-2">
-        <TextHeader variant="h3" classes="group-hover:text-red-400 flex items-center gap-1">
+        <TextHeader variant="h3" classes="group-hover:text-indigo-400 flex items-center gap-1">
           <span>{name}</span>
           {subname && ": "} <span className="subname">{subname}</span>
           <Icon type="external" className="inline-block flex-shrink-0" size={16} />
@@ -38,7 +38,7 @@ const Employer: React.FC<EmployerProps> = ({ name, subname, timeframe, jobTitle,
           {jobTitle}
         </TextHeader>
         {skills && skills.length > 0 && (
-          <div className="space-x-2 mb-2 ">
+          <div className="flex flex-wrap gap-2 mb-2">
             {skills.map((skill, idx) => {
               return <Pill key={idx}>{skill}</Pill>;
             })}

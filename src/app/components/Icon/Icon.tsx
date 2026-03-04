@@ -1,5 +1,4 @@
 import * as Icons from "./icons";
-import { IconProps as BaseIconProps } from "./icons/IconProps";
 
 export interface IconProps extends React.SVGProps<SVGSVGElement> {
   className?: string;

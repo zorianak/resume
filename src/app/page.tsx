@@ -52,16 +52,12 @@ export default function Home() {
             new projects, or making yet another build in Factorio.
           </p>
         </div>
-        <div className="grid bg-white gap-4 text-neutral-950 rounded-lg auto-cols-fr p-4 w-full">
-          <TextHeader variant="h2" classes="col-span-full">
-            Work experience
-          </TextHeader>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {employers.map((employer, index) => {
-              return <Employer key={index} {...employer} />;
-            })}
-          </div>
-        </div>
+        <TextHeader variant="h2" classes="col-span-full">
+          <span id="experience"></span>Experience
+        </TextHeader>
+        {employers.map((employer, index) => {
+          return <Employer key={index} {...employer} />;
+        })}
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
     </div>

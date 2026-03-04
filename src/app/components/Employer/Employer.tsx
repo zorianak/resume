@@ -27,7 +27,7 @@ const Employer: React.FC<EmployerProps> = ({ name, subname, timeframe, jobTitle,
         </TextHeader>
         <TextHeader variant="h4">{jobTitle}</TextHeader>
         {skills && skills.length > 0 && (
-          <div className="space-x-2">
+          <div className="space-x-2 mb-2 ">
             {skills.map((skill, idx) => {
               return <Pill key={idx}>{skill}</Pill>;
             })}
